@@ -92,3 +92,133 @@ Example Code
   <p>Some more important content...</p>
 </main>
 The h1 element, h2 element and the comment are indented two spaces more than the main element in the code below. Use the space bar on your keyboard to add two more spaces in front of the p element so that it is indented properly as well.
+
+Step 7
+You can add images to your website by using the img element. img elements have an opening tag without a closing tag. An element without a closing tag is known as a void element.
+
+Add an img element below the p element. At this point, no image will show up in the browser.
+
+Step 8
+HTML attributes are special words used inside the opening tag of an element to control the element's behavior. The src attribute in an img element specifies the image's URL (where the image is located).
+
+Here is an example of an img element with a src attribute pointing to the freeCodeCamp logo:
+
+Example Code
+<img src="https://cdn.freecodecamp.org/platform/universal/fcc_secondary.svg">
+Inside the existing img element, add a src attribute with this URL:
+
+https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg
+
+Step 9
+All img elements should have an alt attribute. The alt attribute's text is used for screen readers to improve accessibility and is displayed if the image fails to load.
+
+Here is an example of an img element with an alt attribute:
+
+Example Code
+<img src="cat.jpg" alt="A cat">
+Inside the img element, add an alt attribute with this text:
+
+A cute orange cat lying on its back
+
+Step 10
+You can link to another page with the anchor (a) element.
+
+Here is an example linking to https://www.freecodecamp.org:
+
+Example Code
+<a href="https://www.freecodecamp.org"></a>
+Add an anchor element after the paragraph that links to https://freecatphotoapp.com. At this point, the link won't show up in the preview.
+
+Step 11
+A link's text must be placed between the opening and closing tags of an anchor (a) element.
+
+Here is an example of a link with the text click here to go to freeCodeCamp.org:
+
+Example Code
+<a href="https://www.freecodecamp.org">click here to go to freeCodeCamp.org</a>
+Add the anchor text cat photos to the anchor element. This will become the link's text.
+
+Step 12
+Add the words See more  before the anchor element and  in our gallery after the anchor element.
+
+Step 13
+Add p tags to turn See more <a href="https://freecatphotoapp.com">cat photos</a> in our gallery. into a paragraph.
+
+Step 14
+Turn the existing text cute cats into an anchor element that links to:
+
+https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg
+
+Step 15
+To open links in a new tab, you can use the target attribute on the anchor (a) element.
+
+The target attribute specifies where to open the linked document. target="_blank" opens the linked document in a new tab or window.
+
+Here is the basic syntax for an a element with a target attribute:
+
+Example Code
+<a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a>
+Add a target attribute with the value _blank to the anchor (a) element's opening tag, so that the link opens in a new tab.
+
+Step 16
+Now that you have added the link you can remove the comment.
+
+Step 17
+In previous steps, you used an anchor element to turn text into a link. Other types of content can also be turned into a link by wrapping it in anchor tags.
+
+Here is an example of turning an image into a link:
+
+Example Code
+<a href="example-link">
+  <img src="image-link.jpg" alt="A photo of a cat.">
+</a>
+Turn the image into a link by surrounding it with necessary element tags. Use https://freecatphotoapp.com as the anchor's href attribute value.
+
+Step 18
+Before adding any new content, you should make use of a section element to separate the cat photos content from the future content.
+
+The section element is used to define sections in a document, such as chapters, headers, footers, or any other sections of the document. It is a semantic element that helps with SEO and accessibility.
+
+Example Code
+<section>
+  <h2>Section Title</h2>
+  <p>Section content...</p>
+</section>
+Take your h2 element, two p elements, and anchor (a) element and nest them in a section element.
+
+Step 19
+It is time to add a new section. Add a second section element below the existing section element.
+
+Step 20
+Within the second section element, add a new h2 element with the text Cat Lists.
+
+Step 21
+When you add a lower-rank heading element to the page, it's implied that you're starting a new subsection.
+
+After the last h2 element of the second section element, add an h3 element with this text:
+
+Things cats love:
+
+Step 22
+To create an unordered list of items, you can use the ul element.
+
+After the h3 element with the Things cats love: text, add an unordered list (ul) element. Note that nothing will be displayed at this point.
+
+Step 23
+The li element is used to create a list item in an ordered or unordered list.
+
+Here is an example of list items in an unordered list:
+
+Example Code
+<ul>
+  <li>milk</li>
+  <li>cheese</li>
+</ul>
+Within the ul element nest three list items to display three things cats love:
+
+catnip
+
+laser pointers
+
+lasagna
+
