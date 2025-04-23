@@ -222,3 +222,116 @@ laser pointers
 
 lasagna
 
+Step 24
+After the unordered list, add a new image with a src attribute value set to:
+
+https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg
+
+And its alt attribute value to:
+
+A slice of lasagna on a plate.
+
+Step 25
+The figure element represents self-contained content and will allow you to associate an image with a caption.
+
+Nest the image you just added within a figure element.
+
+Step 26
+A figure caption (figcaption) element is used to add a caption to describe the image contained within the figure element.
+
+Here is an example of a figcaption element with the caption of A cute cat:
+
+Example Code
+<figure>
+  <img src="image.jpg" alt="A description of the image">
+  <figcaption>A cute cat</figcaption>
+</figure>
+After the image nested in the figure element, add a figcaption element with text set to:
+
+Cats love lasagna.
+
+Step 27
+To place emphasis on a specific word or phrase, you can use the em element.
+
+Emphasize the word love in the figcaption element by wrapping it in an emphasis em element.
+
+Step 28 
+After the figure element, add another h3 element with the text:
+
+Top 3 things cats hate:
+
+Step 29
+The code for an ordered list (ol) is similar to an unordered list, but list items in an ordered list are numbered when displayed.
+
+Below the h3 element, add an ordered list with these three list items:
+
+flea treatment thunder other cats
+
+Step 30
+After the ordered list, add another figure element.
+
+Step 31
+Inside the figure element you just added, nest an img element with a src attribute set to https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg.
+
+tep 32
+To improve the accessibility of the image you added, add an alt attribute with the text:
+
+Five cats looking around a field.
+
+Step 33
+After the last img element, add a figcaption element with the text Cats hate other cats.
+
+Step 34
+The strong element is used to indicate that some text is of strong importance or urgent.
+
+In the figcaption you just added, indicate that hate is of strong importance by wrapping it in a strong element.
+
+Step 35
+The footer element is used to define a footer for a document or section. A footer typically contains information about the author of the document, copyright data, links to terms of use, contact information, and more.
+
+After the main element, add a footer element.
+
+Step 36
+Nest a p element with the text No Copyright - freeCodeCamp.org within the footer element.
+
+Step 37
+Turn the existing freeCodeCamp.org text into a link by enclosing it in an anchor (a) element. The href attribute should be set to https://www.freecodecamp.org.
+
+Step 38
+Notice that everything you've added to the page so far is inside the body element. All page content elements that should be rendered to the page go inside the body element. However, other important information goes inside the head element.
+
+The head element is used to contain metadata about the document, such as its title, links to stylesheets, and scripts. Metadata is information about the page that isn't displayed directly on the page.
+
+Add a head element above the body element.
+
+Step 39
+The title element determines what browsers show in the title bar or tab for the page.
+
+Add a title element within the head element using the text below:
+
+CatPhotoApp
+
+Step 40
+Notice that the entire contents of the page are nested within an html element. The html element is the root element of an HTML page and wraps all content on the page.
+
+You can also specify the language of your page by adding the lang attribute to the html element.
+
+Add the lang attribute with the value en to the opening html tag to specify that the language of the page is English.
+
+Step 41
+All pages should begin with <!DOCTYPE html>. This special string is known as a declaration and ensures the browser tries to meet industry-wide specifications.
+
+<!DOCTYPE html> tells browsers that the document is an HTML5 document which is the latest version of HTML.
+
+Add this declaration as the first line of the code.
+
+Step 42 Passed
+You can set browser behavior by adding meta elements in the head. Here's an example:
+
+Example Code
+<meta attribute="value">
+Inside the head element, nest a meta element with a charset attribute set to the value of utf-8. This tells the browser how to encode characters for the page.
+
+Note that the meta element is a void element.
+
+With that last change, you have completed the Cat Photo App workshop. Congratulations!
